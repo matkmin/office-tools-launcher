@@ -1,6 +1,8 @@
-document.querySelectorAll("button").forEach((btn) => {
+document.querySelectorAll(".card").forEach((btn) => {
   btn.addEventListener("click", () => {
     const url = btn.getAttribute("data-url");
-    chrome.tabs.create({ url });
+    if (url) {
+      chrome.tabs.create({ url });
+    }
   });
 });
