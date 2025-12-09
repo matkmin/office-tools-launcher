@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Amanah Raya Trustees Berhad Quick Launcher",
+  "version": "1.0",
+  "description": "Quick launcher for Amanah Raya Trustees Berhad systems and websites",
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
