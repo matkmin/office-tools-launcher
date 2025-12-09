@@ -1,8 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Amanah Raya Trustees Berhad Quick Launcher",
-  "version": "1.0",
-  "description": "Quick launcher for Amanah Raya Trustees Berhad systems and websites",
+  "name": "ARTB Quick Launcher",
+  "version": "1.0.0",
+  "description": "Quick launcher for ARTB systems and websites",
+  "icons": {
+    "128": "icon.png"
+  },
   "action": {
     "default_popup": "popup.html"
   }
